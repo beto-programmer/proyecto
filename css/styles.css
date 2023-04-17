@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+.header-index{
+    background-color: rgb(160, 5, 5);
+    color: white; 
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.barra-de-navegacion{
+    display: flex;
+    gap: 20px;
+}
+.fondo {
+    background-color: grey;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-image:url(/img/grocery-g62c28d450_1280.jpg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.texto-fondo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    background-color: rgba(160, 5, 5, 0.644);
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+.footer-index{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding: 100px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+
+/* PAGINA-PRODUCTOS */
+
+.header-productos{
+    background-color: rgb(160, 5, 5);
+    color: white; 
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+/* PAGINA-REDES */
+
+.header-redes{
+    background-color: rgb(160, 5, 5);
+    color: white; 
+    padding: 10px;
+}
+
+/* PAGINA-CONTACTOS */
+
+.header-contactos{
+    background-color: rgb(160, 5, 5);
+    color: white; 
+    padding: 10px;
+}
+
+/* PAGINA-INFORMACION */
+
+.header-informacion{
+    background-color: rgb(160, 5, 5);
+    color: white; 
+    padding: 10px;
+}
+
