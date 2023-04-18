@@ -173,15 +173,21 @@ a{
 }
 
 
-/* PAGINA-REDES */
+/* PAGINA-FOTOS */
 
-.header-redes{
+.header-fotos{
     background-color: rgb(160, 5, 5);
     color: white; 
     padding: 10px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+.fotos__texto{
+    font-size: 3rem;
+    background-color: rgba(128, 128, 128, 0.521);
+    display: flex;
+    justify-content: center;
 }
 
 /* PAGINA-CONTACTOS */
