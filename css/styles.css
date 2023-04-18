@@ -57,6 +57,9 @@ a{
     background-color: rgb(160, 5, 5);
 }
 
+.tarjeta__titulo{
+    padding-bottom: 30px;
+}
 .tarjeta{
     padding: 10px;
     width: 200px;
@@ -70,7 +73,8 @@ a{
     gap: 10px;
 }
 .tarjeta__img{
-    width: 10rem;
+    width: 160px;
+    height: 160px;
     background-color: white;
 }
 
@@ -103,15 +107,32 @@ a{
     display: grid;
     grid-template-rows: 300px;
     grid-template-columns: 270px 270px 270px 270px 270px;
+    padding-bottom: 10px;
 }
 .productos-bebidas{
     font-size: 3rem;
     background-color: rgba(128, 128, 128, 0.351);
-    gap: 10px;
     justify-content: center;
     display: flex;
 }
 .tarjeta-bebidas{
+    width: 200px;
+    height: 300px;
+    border: 2px solid black;
+}
+.productos-sonido{
+    font-size: 3rem;
+    background-color: rgba(128, 128, 128, 0.351);
+    justify-content: center;
+    display: flex;
+}
+.seccion-sonido{
+    width: 100%;
+    display: grid;
+    grid-template-rows: 300px;
+    grid-template-columns: 270px 270px 270px 270px 270px;
+}
+.tarjeta-sonido{
     padding: 10px;
     width: 200px;
     height: 300px;
@@ -141,4 +162,6 @@ a{
     color: white; 
     padding: 10px;
 }
-
+.volver-arriba:hover{
+    color:  rgb(160, 5, 5);
+}
