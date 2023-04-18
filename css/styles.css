@@ -4,6 +4,9 @@
 body{
     font-family: 'Montserrat', sans-serif;
 }
+.volver-arriba:hover{
+    color:  rgb(160, 5, 5);
+}
 .header-index{
     background-color: rgb(160, 5, 5);
     color: white; 
@@ -169,6 +172,9 @@ a{
     background-color: rgb(160, 5, 5);
     color: white; 
     padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 /* PAGINA-CONTACTOS */
@@ -177,6 +183,9 @@ a{
     background-color: rgb(160, 5, 5);
     color: white; 
     padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 /* PAGINA-INFORMACION */
@@ -185,7 +194,30 @@ a{
     background-color: rgb(160, 5, 5);
     color: white; 
     padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
-.volver-arriba:hover{
-    color:  rgb(160, 5, 5);
+.informacion{
+    display: grid;
+    grid-template-rows: 300px;
+    grid-template-columns: 744px 600px;
 }
+.informacion__titulo{
+    padding: 10px;
+}
+.informacion__img{
+    padding: 10px;
+    height: 300px;
+    width: 400px;
+}
+
+.informacion__tarjeta{
+    border: black 2px solid;
+    padding: 10px;
+    height: 480px;
+    width: 550px;
+    display: flex;
+    flex-direction: column;
+}
+
