@@ -107,7 +107,8 @@ a{
     display: grid;
     grid-template-rows: 300px;
     grid-template-columns: 270px 270px 270px 270px 270px;
-    padding-bottom: 10px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 .productos-bebidas{
     font-size: 3rem;
@@ -131,6 +132,8 @@ a{
     display: grid;
     grid-template-rows: 300px;
     grid-template-columns: 270px 270px 270px 270px 270px;
+    padding-top: 30px;
+    padding-bottom: 50px;
 }
 .tarjeta-sonido{
     padding: 10px;
@@ -138,6 +141,27 @@ a{
     height: 300px;
     border: 2px solid black;
 }
+.productos-tecnologia{
+    font-size: 3rem;
+    background-color: rgba(128, 128, 128, 0.351);
+    justify-content: center;
+    display: flex;
+}
+.seccion-tecnologia{
+    width: 100%;
+    display: grid;
+    grid-template-rows: 300px;
+    grid-template-columns: 270px 270px 270px 270px 270px;
+    padding-top: 30px;
+}
+.tarjeta-tecnologia{
+    padding: 10px;
+    width: 200px;
+    height: 300px;
+    border: 2px solid black;
+    padding-bottom: 30px;
+}
+
 
 /* PAGINA-REDES */
 
