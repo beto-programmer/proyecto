@@ -200,6 +200,12 @@ a{
     justify-content: space-between;
     align-items: center;
 }
+.texto-contactos{
+    font-size: 2rem;
+    background-color: rgba(128, 128, 128, 0.521);
+    display: flex;
+    justify-content: center;
+}
 
 /* PAGINA-INFORMACION */
 
