@@ -178,7 +178,7 @@ a{
 .header-fotos{
     background-color: rgb(160, 5, 5);
     color: white; 
-    padding: 10px;
+    padding: 1em;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -188,6 +188,13 @@ a{
     background-color: rgba(128, 128, 128, 0.521);
     display: flex;
     justify-content: center;
+}
+.fotos__img{
+    height: 600px;
+    width: 800px;
+}
+.fotos{
+    text-align: center;
 }
 
 /* PAGINA-CONTACTOS */
@@ -241,4 +248,33 @@ a{
     flex-direction: column;
 }
 
-
+@media (max-width: 400px) {
+    .fotos__img{
+        height: 300px;
+        width: 400px;
+    }
+    .header-texto{
+        font-size: 20px;
+    }
+    .header-fotos{
+        flex-direction: column;
+    }
+    .barra-de-navegacion{
+        display: block;
+        font-size: 10px;
+    }
+    .header-informacion{
+        flex-direction: column;
+    }
+    .informacion__img{
+        width: 300px;
+    }
+    .informacion__tarjeta{
+        width: 375px;
+        height: 700px;
+    }
+    .informacion{
+        display: block;
+        padding-bottom: 900px;
+    }
+}
