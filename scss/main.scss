@@ -1,0 +1,280 @@
+*{
+    margin: 0;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.volver-arriba:hover{
+    color:  rgb(160, 5, 5);
+}
+.header-index{
+    background-color: rgb(160, 5, 5);
+    color: white; 
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.barra-de-navegacion{
+    display: flex;
+    gap: 20px;
+}
+.fondo {
+    background-color: grey;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-image:url(/img/grocery-g62c28d450_1280.jpg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.texto-fondo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    background-color: rgba(160, 5, 5, 0.644);
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+.footer{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding: 50px;
+}
+.footer__img{
+    width: 40px;
+    height: 40px;
+    padding: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+.productos-index{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    color: white;
+    background-color: rgb(160, 5, 5);
+}
+
+.tarjeta__titulo{
+    padding-bottom: 30px;
+}
+.tarjeta{
+    padding: 10px;
+    width: 200px;
+    height: 300px;
+    border: 2px solid black;
+}
+
+.tarjeta-contenedor{
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+}
+.tarjeta__img{
+    width: 160px;
+    height: 160px;
+    background-color: white;
+}
+
+.btn{
+    background-color: red;
+    color: white;
+    padding: 10px;
+    justify-content: baseline;
+    display: flex;
+    width: 35%;
+}
+.btn:hover{
+    background-color: white;
+    color: red;
+    border: 1px black solid;
+}
+
+/* PAGINA-PRODUCTOS */
+
+.header-productos{
+    background-color: rgb(160, 5, 5);
+    color: white; 
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.seccion-bebidas{
+    width: 100%;
+    display: grid;
+    grid-template-rows: 300px;
+    grid-template-columns: 270px 270px 270px 270px 270px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.productos-bebidas{
+    font-size: 3rem;
+    background-color: rgba(128, 128, 128, 0.351);
+    justify-content: center;
+    display: flex;
+}
+.tarjeta-bebidas{
+    width: 200px;
+    height: 300px;
+    border: 2px solid black;
+}
+.productos-sonido{
+    font-size: 3rem;
+    background-color: rgba(128, 128, 128, 0.351);
+    justify-content: center;
+    display: flex;
+}
+.seccion-sonido{
+    width: 100%;
+    display: grid;
+    grid-template-rows: 300px;
+    grid-template-columns: 270px 270px 270px 270px 270px;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+.tarjeta-sonido{
+    padding: 10px;
+    width: 200px;
+    height: 300px;
+    border: 2px solid black;
+}
+.productos-tecnologia{
+    font-size: 3rem;
+    background-color: rgba(128, 128, 128, 0.351);
+    justify-content: center;
+    display: flex;
+}
+.seccion-tecnologia{
+    width: 100%;
+    display: grid;
+    grid-template-rows: 300px;
+    grid-template-columns: 270px 270px 270px 270px 270px;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+.tarjeta-tecnologia{
+    padding: 10px;
+    width: 200px;
+    height: 300px;
+    border: 2px solid black;
+    padding-bottom: 30px;
+}
+
+
+/* PAGINA-FOTOS */
+
+.header-fotos{
+    background-color: rgb(160, 5, 5);
+    color: white; 
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.fotos__texto{
+    font-size: 3rem;
+    background-color: rgba(128, 128, 128, 0.521);
+    display: flex;
+    justify-content: center;
+}
+.fotos__img{
+    height: 600px;
+    width: 800px;
+}
+.fotos{
+    text-align: center;
+}
+
+/* PAGINA-CONTACTOS */
+
+.header-contactos{
+    background-color: rgb(160, 5, 5);
+    color: white; 
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.texto-contactos{
+    font-size: 2rem;
+    background-color: rgba(128, 128, 128, 0.521);
+    display: flex;
+    justify-content: center;
+}
+
+/* PAGINA-INFORMACION */
+
+.header-informacion{
+    background-color: rgb(160, 5, 5);
+    color: white; 
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.informacion{
+    display: grid;
+    grid-template-rows: 300px;
+    grid-template-columns: 744px 600px;
+    height: 550px;
+}
+.informacion__titulo{
+    padding: 10px;
+}
+.informacion__img{
+    padding: 10px;
+    height: 300px;
+    width: 400px;
+}
+
+.informacion__tarjeta{
+    border: black 2px solid;
+    padding: 10px;
+    height: 480px;
+    width: 550px;
+    display: flex;
+    flex-direction: column;
+}
+
+@media (max-width: 400px) {
+    .fotos__img{
+        height: 300px;
+        width: 400px;
+    }
+    .header-texto{
+        font-size: 20px;
+    }
+    .header-fotos{
+        flex-direction: column;
+    }
+    .barra-de-navegacion{
+        display: block;
+        font-size: 10px;
+    }
+    .header-informacion{
+        flex-direction: column;
+    }
+    .informacion__img{
+        width: 300px;
+    }
+    .informacion__tarjeta{
+        width: 375px;
+        height: 700px;
+    }
+    .informacion{
+        display: block;
+        padding-bottom: 900px;
+    }
+}
