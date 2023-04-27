@@ -11,7 +11,7 @@ body{
 .header-index{
     background-color: rgb(160, 5, 5);
     color: white; 
-    padding: 10px;
+    padding: 0.625rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -19,14 +19,14 @@ body{
 
 .barra-de-navegacion{
     display: flex;
-    gap: 20px;
+    gap: 1.25rem;
 }
 .fondo {
     background-color: grey;
     height: 100vh;
     background-position: center;
     background-size: cover;
-    background-image:url(/img/grocery-g62c28d450_1280.jpg);
+    background-image:url(img/grocery-g62c28d450_1280.jpg);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -40,18 +40,18 @@ body{
     font-size: 2rem;
     background-color: rgba(160, 5, 5, 0.644);
     color: white;
-    padding: 20px;
-    border-radius: 10px;
+    padding: 1.25rem;
+    border-radius: 0.625rem;
 }
 .footer{
     background-color: rgb(0, 0, 0);
     color: white;
-    padding: 50px;
+    padding: 3.125rem;
 }
 .footer__img{
-    width: 40px;
-    height: 40px;
-    padding: 20px;
+    width: 2.5rem;
+    height: 2.5rem;
+    padding: 1.25rem;
 }
 
 a{
@@ -61,36 +61,36 @@ a{
 .productos-index{
     display: flex;
     justify-content: center;
-    padding: 10px;
+    padding: 0.625rem;
     color: white;
     background-color: rgb(160, 5, 5);
 }
 
 .tarjeta__titulo{
-    padding-bottom: 30px;
+    padding-bottom: 1.875rem;
 }
 .tarjeta{
-    padding: 10px;
-    width: 200px;
-    height: 300px;
-    border: 2px solid black;
+    padding: 0.625rem;
+    width: 12.5rem;
+    height: 18.75rem;
+    border: 0.125rem solid black;
 }
 
 .tarjeta-contenedor{
     display: flex;
     justify-content: space-around;
-    gap: 10px;
+    gap: 0.625rem;
 }
 .tarjeta__img{
-    width: 160px;
-    height: 160px;
+    width: 10rem;
+    height: 10rem;
     background-color: white;
 }
 
 .btn{
     background-color: red;
     color: white;
-    padding: 10px;
+    padding: 0.625rem;
     justify-content: baseline;
     display: flex;
     width: 35%;
@@ -98,7 +98,7 @@ a{
 .btn:hover{
     background-color: white;
     color: red;
-    border: 1px black solid;
+    border: 0.063rem black solid;
 }
 
 /* PAGINA-PRODUCTOS */
@@ -106,7 +106,7 @@ a{
 .header-productos{
     background-color: rgb(160, 5, 5);
     color: white; 
-    padding: 10px;
+    padding: 0.625rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -114,10 +114,10 @@ a{
 .seccion-bebidas{
     width: 100%;
     display: grid;
-    grid-template-rows: 300px;
-    grid-template-columns: 270px 270px 270px 270px 270px;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    grid-template-rows: 18.75rem;
+    grid-template-columns: 16.875rem 16.875rem 16.875rem 16.875rem 16.875rem;
+    padding-top: 1.875rem;
+    padding-bottom: 1.875rem;
 }
 .productos-bebidas{
     font-size: 3rem;
@@ -126,9 +126,9 @@ a{
     display: flex;
 }
 .tarjeta-bebidas{
-    width: 200px;
-    height: 300px;
-    border: 2px solid black;
+    width: 12.5rem;
+    height: 18.75rem;
+    border: 0.125rem solid black;
 }
 .productos-sonido{
     font-size: 3rem;
@@ -139,16 +139,16 @@ a{
 .seccion-sonido{
     width: 100%;
     display: grid;
-    grid-template-rows: 300px;
-    grid-template-columns: 270px 270px 270px 270px 270px;
-    padding-top: 30px;
-    padding-bottom: 50px;
+    grid-template-rows: 18.75rem;
+    grid-template-columns: 16.875rem 16.875rem 16.875rem 16.875rem;
+    padding-top: 1.875rem;
+    padding-bottom: 3.125rem;
 }
 .tarjeta-sonido{
-    padding: 10px;
-    width: 200px;
-    height: 300px;
-    border: 2px solid black;
+    padding: 0.625rem;
+    width: 12.5rem;
+    height: 18.75rem;
+    border: 0.125rem solid black;
 }
 .productos-tecnologia{
     font-size: 3rem;
@@ -159,17 +159,17 @@ a{
 .seccion-tecnologia{
     width: 100%;
     display: grid;
-    grid-template-rows: 300px;
-    grid-template-columns: 270px 270px 270px 270px 270px;
-    padding-top: 30px;
-    padding-bottom: 50px;
+    grid-template-rows: 18.75rem;
+    grid-template-columns: 16.875rem 16.875rem 16.875rem 16.875rem 16.875rem;
+    padding-top: 1.875rem;
+    padding-bottom: 3.125rem;
 }
 .tarjeta-tecnologia{
-    padding: 10px;
-    width: 200px;
-    height: 300px;
-    border: 2px solid black;
-    padding-bottom: 30px;
+    padding: 0.625rem;
+    width: 12.5rem;
+    height: 18.75rem;
+    border: 0.125rem solid black;
+    padding-bottom: 1.875rem;
 }
 
 
@@ -190,8 +190,8 @@ a{
     justify-content: center;
 }
 .fotos__img{
-    height: 600px;
-    width: 800px;
+    height: 37.5rem;
+    width: 50rem;
 }
 .fotos{
     text-align: center;
@@ -202,7 +202,7 @@ a{
 .header-contactos{
     background-color: rgb(160, 5, 5);
     color: white; 
-    padding: 10px;
+    padding: 0.625rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -219,62 +219,62 @@ a{
 .header-informacion{
     background-color: rgb(160, 5, 5);
     color: white; 
-    padding: 10px;
+    padding: 0.625rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 .informacion{
     display: grid;
-    grid-template-rows: 300px;
-    grid-template-columns: 744px 600px;
-    height: 550px;
+    grid-template-rows: 18.75rem;
+    grid-template-columns: 46.5rem 37.5rem;
+    height: 34.375rem;
 }
 .informacion__titulo{
-    padding: 10px;
+    padding: 0.625rem;
 }
 .informacion__img{
-    padding: 10px;
-    height: 300px;
-    width: 400px;
+    padding: 0.625rem;
+    height: 18.75rem;
+    width: 25rem;
 }
 
 .informacion__tarjeta{
-    border: black 2px solid;
-    padding: 10px;
-    height: 480px;
-    width: 550px;
+    border: black 0.125rem solid;
+    padding: 0.625rem;
+    height: 32rem;
+    width: 32rem;
     display: flex;
     flex-direction: column;
 }
 
 @media (max-width: 400px) {
     .fotos__img{
-        height: 300px;
-        width: 400px;
+        height: 18.75rem;
+        width: 25rem;
     }
     .header-texto{
-        font-size: 20px;
+        font-size: 1.25rem;
     }
     .header-fotos{
         flex-direction: column;
     }
     .barra-de-navegacion{
         display: block;
-        font-size: 10px;
+        font-size: 0.625rem;
     }
     .header-informacion{
         flex-direction: column;
     }
     .informacion__img{
-        width: 300px;
+        width: 18.75rem;
     }
     .informacion__tarjeta{
-        width: 375px;
-        height: 700px;
+        width: 23.438rem;
+        height: 43.75rem;
     }
     .informacion{
         display: block;
-        padding-bottom: 900px;
+        padding-bottom: 56.25rem;
     }
 }

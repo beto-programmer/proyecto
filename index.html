@@ -2,12 +2,13 @@
 <html lang="en">
 <head>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Supermercado | Inicio</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
@@ -39,21 +40,21 @@
         <section>
             <h2 class="productos-index">Productos que puedes encontrar</h2>
             <div class="tarjeta-contenedor">
-                <article class="tarjeta">
+                <article data-aos="fade-right" class="tarjeta">
                 <img class="tarjeta__img" src="./img/TNRsfZGM3o9bcKCFCj6DFUd3YDDx6ppyD9V85cEu.png" alt="cocacola">
                 <h3 class="tarjeta__titulo">Coca Cola 3L</h3>
                 <span class="tarjeta__precio">$700</span>
                 <a class="btn" href="">Comprar</a>
                 </article>
 
-                <article class="tarjeta">
+                <article data-aos="fade-up" class="tarjeta">
                 <img class="tarjeta__img" src="./img/G733-FOB-Blk.png" alt="auriculares">
                 <h3 class="tarjeta__titulo">Auriculares Logitech G733</h3>
                 <span class="tarjeta__precio">$63.000</span>
                 <a class="btn" href="">Comprar</a>
                 </article>
 
-                <article class="tarjeta">
+                <article data-aos="fade-left" class="tarjeta">
                 <img class="tarjeta__img" src="./img/motorola_edge30ultra_blanco_1.png" alt="motorola">
                 <h3 class="tarjeta__titulo">Motorola Edge 30 Fusion</h3>
                 <span class="tarjeta__precio">$220.000</span>
@@ -77,5 +78,9 @@
         </ul>
         <a class="volver-arriba" href="#volver-arriba">Si quieres volver arriba apreta aqui</a>
     </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
 </body>
 </html>
