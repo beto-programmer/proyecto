@@ -29,7 +29,7 @@ body {
   height: 100vh;
   background-position: center;
   background-size: cover;
-  background-image: url(img/grocery-g62c28d450_1280.jpg);
+  background-image: url(/img/grocery-g62c28d450_1280.jpg);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -153,7 +153,7 @@ a {
   width: 100%;
   display: grid;
   grid-template-rows: 18.75rem;
-  grid-template-columns: 16.875rem 16.875rem 16.875rem 16.875rem;
+  grid-template-columns: 16.875rem 16.875rem 16.875rem 16.875rem 16.875rem;
   padding-top: 1.875rem;
   padding-bottom: 3.125rem;
 }
