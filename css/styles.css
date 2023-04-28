@@ -251,6 +251,10 @@ a {
 
 .informacion__titulo {
   padding: 0.625rem;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(160, 5, 5);
+  color: white;
 }
 
 .informacion__img {
@@ -259,13 +263,41 @@ a {
   width: 25rem;
 }
 
-.informacion__tarjeta {
+.informacion-tarjeta__informacion {
   border: black 0.125rem solid;
   padding: 0.625rem;
-  height: 32rem;
+  height: 30rem;
   width: 32rem;
   display: flex;
   flex-direction: column;
+}
+
+.informacion__tarjeta {
+  border: black 0.125rem solid;
+  padding: 0.625rem;
+  height: 55rem;
+  width: 32rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.informacion__sucursales {
+  display: flex;
+  justify-content: center;
+  padding: 0.75em;
+  font-family: "Playfair Display", serif;
+  background-color: rgba(128, 128, 128, 0.452);
+}
+
+.informacion__texto {
+  font-family: "Playfair Display", serif;
+  display: flex;
+  justify-content: center;
+  padding: 0.75em;
+}
+
+.seccion-informacion {
+  padding-bottom: 24em;
 }
 
 @media (max-width: 400px) {
@@ -278,6 +310,21 @@ a {
   }
   .header-fotos {
     flex-direction: column;
+  }
+  .barra-de-navegacion__principal {
+    padding: 0.75em;
+  }
+  .barra-de-navegacion__productos {
+    padding: 0.75em;
+  }
+  .barra-de-navegacion__redes {
+    padding: 0.75em;
+  }
+  .barra-de-navegacion__contactos {
+    padding: 0.75em;
+  }
+  .barra-de-navegacion__informacion {
+    padding: 0.75em;
   }
   .barra-de-navegacion {
     display: block;
