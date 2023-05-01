@@ -343,16 +343,14 @@ a {
   .header-informacion {
     flex-direction: column;
   }
-  .informacion__img {
-    width: 18.75rem;
-  }
+
   .informacion__tarjeta {
-    width: 23.438rem;
-    height: 43.75rem;
+    width: 23.438em;
+    height: 55em;
   }
   .informacion {
     display: block;
-    padding-bottom: 56.25rem;
+    padding-bottom: 30em;
   }
   .header-contactos{
     flex-direction: column;
@@ -374,6 +372,42 @@ a {
     display: flex;
     justify-content: center;
     font-size: 1em;
+  }
+  .tarjeta-contenedor{
+    display: block;
+    padding-left: 5.5em;
+  }
+  .informacion-tarjeta__informacion{
+    width: 23.5em;
+  }
+  .informacion__img{
+    width: 22.3em;
+  }
+  .header-productos{
+      flex-direction: column;
+      justify-content: center;
+      font-size: 0.65em;
+  }
+  .productos-bebidas{
+    font-size: 2em;
+  }
+  .productos-sonido{
+    font-size: 2em;
+  }
+  .productos-tecnologia{
+    font-size: 2em;
+  }
+  .seccion-bebidas{
+    display: block;
+    padding-left: 6em;
+  }
+  .seccion-sonido{
+    display: block;
+    padding-left: 5.5em;
+  }
+  .seccion-tecnologia{
+    display: block;
+    padding-left: 5.5em;
   }
 }
 
