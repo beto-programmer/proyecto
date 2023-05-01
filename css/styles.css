@@ -225,11 +225,21 @@ a {
   align-items: center;
 }
 
+.contactos-img {
+  width: 5em;
+  height: 5em;
+  padding: 1.25em;
+}
+
 .texto-contactos {
   font-size: 2rem;
   background-color: rgba(128, 128, 128, 0.521);
   display: flex;
   justify-content: center;
+}
+
+.redes-contactos__titulo {
+  padding: 1.25em;
 }
 
 /* PAGINA-INFORMACION */
@@ -343,6 +353,27 @@ a {
   .informacion {
     display: block;
     padding-bottom: 56.25rem;
+  }
+  .header-contactos{
+    flex-direction: column;
+    justify-content: center;
+    font-size: 0.8em;
+  }
+  .texto-contactos{
+    font-size: 1.5em;
+  }
+  .header-index{
+    flex-direction: column;
+    justify-content: center;
+    font-size: 1em;
+  }
+  .texto-fondo{
+    font-size: 1em;
+  }
+  .productos-index{
+    display: flex;
+    justify-content: center;
+    font-size: 1em;
   }
 }
 

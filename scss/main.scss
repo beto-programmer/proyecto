@@ -207,11 +207,23 @@ a{
     justify-content: space-between;
     align-items: center;
 }
+.contactos-img{
+    width: 5em;
+    height: 5em;
+    padding: 1.25rem;
+}
+
 .texto-contactos{
     font-size: 2rem;
     background-color: rgba(128, 128, 128, 0.521);
     display: flex;
     justify-content: center;
+}
+
+.redes-contactos__titulo{
+    display: flex;
+    justify-content: center;
+    padding: 1.25em;
 }
 
 /* PAGINA-INFORMACION */
