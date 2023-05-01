@@ -13,7 +13,7 @@ body {
 .header-index {
   background-color: rgb(160, 5, 5);
   color: white;
-  padding: 0.625rem;
+  padding: 0.625em;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -21,7 +21,7 @@ body {
 
 .barra-de-navegacion {
   display: flex;
-  gap: 1.25rem;
+  gap: 1.25em;
 }
 
 .fondo {
@@ -40,23 +40,23 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: 2rem;
+  font-size: 2em;
   background-color: rgba(160, 5, 5, 0.644);
   color: white;
-  padding: 1.25rem;
-  border-radius: 0.625rem;
+  padding: 1.25em;
+  border-radius: 0.625em;
 }
 
 .footer {
   background-color: rgb(0, 0, 0);
   color: white;
-  padding: 3.125rem;
+  padding: 3.125em;
 }
 
 .footer__img {
-  width: 2.5rem;
-  height: 2.5rem;
-  padding: 1.25rem;
+  width: 2.5em;
+  height: 2.5em;
+  padding: 1.25em;
 }
 
 a {
@@ -67,38 +67,38 @@ a {
 .productos-index {
   display: flex;
   justify-content: center;
-  padding: 0.625rem;
+  padding: 0.625em;
   color: white;
   background-color: rgb(160, 5, 5);
 }
 
 .tarjeta__titulo {
-  padding-bottom: 1.875rem;
+  padding-bottom: 1.875em;
 }
 
 .tarjeta {
-  padding: 0.625rem;
-  width: 12.5rem;
-  height: 18.75rem;
-  border: 0.125rem solid black;
+  padding: 0.625em;
+  width: 12.5em;
+  height: 18.75em;
+  border: 0.125em solid black;
 }
 
 .tarjeta-contenedor {
   display: flex;
   justify-content: space-around;
-  gap: 0.625rem;
+  gap: 0.625em;
 }
 
 .tarjeta__img {
-  width: 10rem;
-  height: 10rem;
+  width: 10em;
+  height: 10em;
   background-color: white;
 }
 
 .btn {
   background-color: red;
   color: white;
-  padding: 0.625rem;
+  padding: 0.625em;
   justify-content: baseline;
   display: flex;
   width: 35%;
@@ -107,14 +107,14 @@ a {
 .btn:hover {
   background-color: white;
   color: red;
-  border: 0.063rem black solid;
+  border: 0.063em black solid;
 }
 
 /* PAGINA-PRODUCTOS */
 .header-productos {
   background-color: rgb(160, 5, 5);
   color: white;
-  padding: 0.625rem;
+  padding: 0.625em;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -123,27 +123,27 @@ a {
 .seccion-bebidas {
   width: 100%;
   display: grid;
-  grid-template-rows: 18.75rem;
-  grid-template-columns: 16.875rem 16.875rem 16.875rem 16.875rem 16.875rem;
-  padding-top: 1.875rem;
-  padding-bottom: 1.875rem;
+  grid-template-rows: 18.75em;
+  grid-template-columns: 16.875em 16.875em 16.875em 16.875em 16.875em;
+  padding-top: 1.875em;
+  padding-bottom: 1.875em;
 }
 
 .productos-bebidas {
-  font-size: 3rem;
+  font-size: 3em;
   background-color: rgba(128, 128, 128, 0.351);
   justify-content: center;
   display: flex;
 }
 
 .tarjeta-bebidas {
-  width: 12.5rem;
-  height: 18.75rem;
-  border: 0.125rem solid black;
+  width: 12.5em;
+  height: 18.75em;
+  border: 0.125em solid black;
 }
 
 .productos-sonido {
-  font-size: 3rem;
+  font-size: 3em;
   background-color: rgba(128, 128, 128, 0.351);
   justify-content: center;
   display: flex;
@@ -152,21 +152,21 @@ a {
 .seccion-sonido {
   width: 100%;
   display: grid;
-  grid-template-rows: 18.75rem;
-  grid-template-columns: 16.875rem 16.875rem 16.875rem 16.875rem 16.875rem;
-  padding-top: 1.875rem;
-  padding-bottom: 3.125rem;
+  grid-template-rows: 18.75em;
+  grid-template-columns: 16.875em 16.875em 16.875em 16.875em 16.875em;
+  padding-top: 1.875em;
+  padding-bottom: 3.125em;
 }
 
 .tarjeta-sonido {
-  padding: 0.625rem;
-  width: 12.5rem;
-  height: 18.75rem;
-  border: 0.125rem solid black;
+  padding: 0.625em;
+  width: 12.5em;
+  height: 18.75em;
+  border: 0.125em solid black;
 }
 
 .productos-tecnologia {
-  font-size: 3rem;
+  font-size: 3em;
   background-color: rgba(128, 128, 128, 0.351);
   justify-content: center;
   display: flex;
@@ -175,18 +175,18 @@ a {
 .seccion-tecnologia {
   width: 100%;
   display: grid;
-  grid-template-rows: 18.75rem;
-  grid-template-columns: 16.875rem 16.875rem 16.875rem 16.875rem 16.875rem;
-  padding-top: 1.875rem;
-  padding-bottom: 3.125rem;
+  grid-template-rows: 18.75em;
+  grid-template-columns: 16.875em 16.875em 16.875em 16.875em 16.875em;
+  padding-top: 1.875em;
+  padding-bottom: 3.125em;
 }
 
 .tarjeta-tecnologia {
-  padding: 0.625rem;
-  width: 12.5rem;
-  height: 18.75rem;
-  border: 0.125rem solid black;
-  padding-bottom: 1.875rem;
+  padding: 0.625em;
+  width: 12.5em;
+  height: 18.75em;
+  border: 0.125em solid black;
+  padding-bottom: 1.875em;
 }
 
 /* PAGINA-FOTOS */
@@ -200,15 +200,15 @@ a {
 }
 
 .fotos__texto {
-  font-size: 3rem;
+  font-size: 3em;
   background-color: rgba(128, 128, 128, 0.521);
   display: flex;
   justify-content: center;
 }
 
 .fotos__img {
-  height: 37.5rem;
-  width: 50rem;
+  height: 37.5em;
+  width: 50em;
 }
 
 .fotos {
@@ -219,7 +219,7 @@ a {
 .header-contactos {
   background-color: rgb(160, 5, 5);
   color: white;
-  padding: 0.625rem;
+  padding: 0.625em;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -232,7 +232,7 @@ a {
 }
 
 .texto-contactos {
-  font-size: 2rem;
+  font-size: 2em;
   background-color: rgba(128, 128, 128, 0.521);
   display: flex;
   justify-content: center;
@@ -246,7 +246,7 @@ a {
 .header-informacion {
   background-color: rgb(160, 5, 5);
   color: white;
-  padding: 0.625rem;
+  padding: 0.625em;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -254,13 +254,13 @@ a {
 
 .informacion {
   display: grid;
-  grid-template-rows: 18.75rem;
-  grid-template-columns: 46.5rem 37.5rem;
-  height: 34.375rem;
+  grid-template-rows: 18.75em;
+  grid-template-columns: 46.5em 37.5em;
+  height: 34.375em;
 }
 
 .informacion__titulo {
-  padding: 0.625rem;
+  padding: 0.625em;
   display: flex;
   justify-content: center;
   background-color: rgb(160, 5, 5);
@@ -268,25 +268,25 @@ a {
 }
 
 .informacion__img {
-  padding: 0.625rem;
-  height: 18.75rem;
-  width: 25rem;
+  padding: 0.625em;
+  height: 18.75em;
+  width: 25em;
 }
 
 .informacion-tarjeta__informacion {
-  border: black 0.125rem solid;
-  padding: 0.625rem;
-  height: 30rem;
-  width: 32rem;
+  border: black 0.125em solid;
+  padding: 0.625em;
+  height: 30em;
+  width: 32em;
   display: flex;
   flex-direction: column;
 }
 
 .informacion__tarjeta {
-  border: black 0.125rem solid;
-  padding: 0.625rem;
-  height: 55rem;
-  width: 32rem;
+  border: black 0.125em solid;
+  padding: 0.625em;
+  height: 55em;
+  width: 32em;
   display: flex;
   flex-direction: column;
 }
@@ -312,11 +312,11 @@ a {
 
 @media (max-width: 400px) {
   .fotos__img {
-    height: 18.75rem;
-    width: 25rem;
+    height: 18.75em;
+    width: 25em;
   }
   .header-texto {
-    font-size: 1.25rem;
+    font-size: 1.25em;
   }
   .header-fotos {
     flex-direction: column;
@@ -338,12 +338,11 @@ a {
   }
   .barra-de-navegacion {
     display: block;
-    font-size: 0.625rem;
+    font-size: 0.625em;
   }
   .header-informacion {
     flex-direction: column;
   }
-
   .informacion__tarjeta {
     width: 23.438em;
     height: 55em;
@@ -352,60 +351,60 @@ a {
     display: block;
     padding-bottom: 30em;
   }
-  .header-contactos{
+  .header-contactos {
     flex-direction: column;
     justify-content: center;
     font-size: 0.8em;
   }
-  .texto-contactos{
+  .texto-contactos {
     font-size: 1.5em;
   }
-  .header-index{
+  .header-index {
     flex-direction: column;
     justify-content: center;
     font-size: 1em;
   }
-  .texto-fondo{
+  .texto-fondo {
     font-size: 1em;
   }
-  .productos-index{
+  .productos-index {
     display: flex;
     justify-content: center;
     font-size: 1em;
   }
-  .tarjeta-contenedor{
+  .tarjeta-contenedor {
     display: block;
     padding-left: 5.5em;
   }
-  .informacion-tarjeta__informacion{
+  .informacion-tarjeta__informacion {
     width: 23.5em;
   }
-  .informacion__img{
+  .informacion__img {
     width: 22.3em;
   }
-  .header-productos{
-      flex-direction: column;
-      justify-content: center;
-      font-size: 0.65em;
+  .header-productos {
+    flex-direction: column;
+    justify-content: center;
+    font-size: 0.65em;
   }
-  .productos-bebidas{
+  .productos-bebidas {
     font-size: 2em;
   }
-  .productos-sonido{
+  .productos-sonido {
     font-size: 2em;
   }
-  .productos-tecnologia{
+  .productos-tecnologia {
     font-size: 2em;
   }
-  .seccion-bebidas{
+  .seccion-bebidas {
     display: block;
     padding-left: 6em;
   }
-  .seccion-sonido{
+  .seccion-sonido {
     display: block;
     padding-left: 5.5em;
   }
-  .seccion-tecnologia{
+  .seccion-tecnologia {
     display: block;
     padding-left: 5.5em;
   }
