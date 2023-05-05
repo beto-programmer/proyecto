@@ -1,0 +1,69 @@
+.seccion-bebidas {
+    width: 100%;
+    display: grid;
+    grid-template-rows: 300px;
+    grid-template-columns: 270px 270px 270px 270px 270px;
+    padding-top: 1.875em;
+    padding-bottom: 1.875em;
+  }
+  
+  .productos-bebidas {
+    font-size: 3rem;
+    background-color: $color-secciones;
+    justify-content: center;
+    display: flex;
+  }
+  
+  .tarjeta-bebidas {
+    width: 200px;
+    height: 300px;
+    border: 2px solid $color-bordes;
+  }
+  
+  .productos-sonido {
+    font-size: 3rem;
+    background-color: $color-secciones;
+    justify-content: center;
+    display: flex;
+  }
+  
+  .seccion-sonido {
+    width: 100%;
+    display: grid;
+    grid-template-rows: 300px;
+    grid-template-columns: 270px 270px 270px 270px 270px;
+    padding-top: 1.875em;
+    padding-bottom: 3.125em;
+  }
+  
+  .tarjeta-sonido {
+    padding: 0.625em;
+    width: 200px;
+    height: 300px;
+    border: 2px solid $color-bordes;
+  }
+  
+  .productos-tecnologia {
+    font-size: 3rem;
+    background-color: $color-secciones;
+    justify-content: center;
+    display: flex;
+  }
+  
+  .seccion-tecnologia {
+    width: 100%;
+    display: grid;
+    grid-template-rows: 300px;
+    grid-template-columns: 270px 270px 270px 270px 270px;
+    padding-top: 1.875em;
+    padding-bottom: 3.125em;
+  }
+  
+  .tarjeta-tecnologia {
+    padding: 0.625em;
+    width: 200px;
+    height: 300px;
+    border: 2px solid $color-bordes;
+    padding-bottom: 1.875em;
+  }
+  

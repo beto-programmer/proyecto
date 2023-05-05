@@ -1,0 +1,22 @@
+.tarjeta__titulo {
+    padding-bottom: 1.875em;
+  }
+  
+  .tarjeta {
+    padding: 0.625em;
+    width: 200px;
+    height: 300px;
+    border: 2px solid $color-bordes;
+
+  &-contenedor {
+    display: flex;
+    justify-content: space-around;
+    gap: 0.625em;
+  }
+  }
+  
+  .tarjeta__img {
+    width: 160px;
+    height: 160px;
+    background-color: white;
+  }

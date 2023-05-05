@@ -1,0 +1,31 @@
+.fondo {
+    background-color: grey;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-image: url(/img/grocery-g62c28d450_1280.jpg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .texto-fondo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    background-color: $color-principal;
+    color: white;
+    padding: 1.25em;
+    border-radius: 10px;
+  }
+  
+  .productos-index {
+    display: flex;
+    justify-content: center;
+    padding: 0.625em;
+    color: white;
+    background-color: $color-principal;
+  }
+  

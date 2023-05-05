@@ -1,0 +1,57 @@
+.informacion {
+    display: grid;
+    grid-template-rows: 300px;
+    grid-template-columns: 744px 600px;
+    height: 600px;
+
+  &__titulo {
+    padding: 0.625em;
+    display: flex;
+    justify-content: center;
+    background-color: $color-principal;
+    color: white;
+  }
+}
+  
+  .informacion__img {
+    padding: 0.625em;
+    height: 300px;
+    width: 400px;
+  }
+  
+  .informacion-tarjeta__informacion {
+    border: $color-bordes 2px solid;
+    padding: 0.625em;
+    height: 480px;
+    width: 512px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .informacion__tarjeta {
+    border: $color-bordes 2px solid;
+    padding: 0.625em;
+    height: 880px;
+    width: 512px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .informacion__sucursales {
+    display: flex;
+    justify-content: center;
+    padding: 0.75em;
+    font-family: "Playfair Display", serif;
+    background-color: $color-secciones;
+  }
+  
+  .informacion__texto {
+    font-family: "Playfair Display", serif;
+    display: flex;
+    justify-content: center;
+    padding: 0.75em;
+  }
+  
+  .seccion-informacion {
+    padding-bottom: 24em;
+  }

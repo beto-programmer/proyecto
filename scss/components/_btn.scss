@@ -1,0 +1,14 @@
+.btn {
+    background-color: $color-principal;
+    color: white;
+    padding: 0.625em;
+    justify-content: baseline;
+    display: flex;
+    width: 35%;
+    
+    &:hover {
+    background-color: white;
+    color: $color-principal;
+    border: 1px $color-bordes solid;
+  }
+  }

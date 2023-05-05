@@ -1,0 +1,101 @@
+@media (max-width: 400px) {
+    .fotos__img {
+      height: 300px;
+      width: 400px;
+    }
+    .header-texto {
+      font-size: 1.25rem;
+    }
+    .header-fotos {
+      flex-direction: column;
+    }
+    .barra-de-navegacion__principal {
+      padding: 0.75em;
+    }
+    .barra-de-navegacion__productos {
+      padding: 0.75em;
+    }
+    .barra-de-navegacion__redes {
+      padding: 0.75em;
+    }
+    .barra-de-navegacion__contactos {
+      padding: 0.75em;
+    }
+    .barra-de-navegacion__informacion {
+      padding: 0.75em;
+    }
+    .barra-de-navegacion {
+      display: block;
+      font-size: 0.625rem;
+    }
+    .header-informacion {
+      flex-direction: column;
+    }
+  
+    .informacion {
+      display: block;
+      padding-bottom: 30em;
+
+    &__tarjeta {
+      width: 375px;
+      height: 880px;
+    }
+  }
+    .header-contactos{
+      flex-direction: column;
+      justify-content: center;
+      font-size: 0.8rem;
+    }
+    .texto-contactos{
+      font-size: 1.5rem;
+    }
+    .header-index{
+      flex-direction: column;
+      justify-content: center;
+      font-size: 1rem;
+    }
+    .texto-fondo{
+      font-size: 1rem;
+    }
+    .productos-index{
+      display: flex;
+      justify-content: center;
+      font-size: 1rem;
+    }
+    .tarjeta-contenedor{
+      display: block;
+      padding-left: 5.5em;
+    }
+    .informacion-tarjeta__informacion{
+      width: 376px;
+    }
+    .informacion__img{
+      width: 356px;
+    }
+    .header-productos{
+        flex-direction: column;
+        justify-content: center;
+        font-size: 0.65rem;
+    }
+    .productos-bebidas{
+      font-size: 2rem;
+    }
+    .productos-sonido{
+      font-size: 2rem;
+    }
+    .productos-tecnologia{
+      font-size: 2rem;
+    }
+    .seccion-bebidas{
+      display: block;
+      padding-left: 6em;
+    }
+    .seccion-sonido{
+      display: block;
+      padding-left: 5.5em;
+    }
+    .seccion-tecnologia{
+      display: block;
+      padding-left: 5.5em;
+    }
+  }

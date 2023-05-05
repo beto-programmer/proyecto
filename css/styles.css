@@ -6,11 +6,43 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
-.volver-arriba:hover {
-  color: rgb(160, 5, 5);
+.header-index {
+  background-color: rgb(160, 5, 5);
+  color: white;
+  padding: 0.625em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.header-index {
+.header-productos {
+  background-color: rgb(160, 5, 5);
+  color: white;
+  padding: 0.625em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-fotos {
+  background-color: rgb(160, 5, 5);
+  color: white;
+  padding: 1em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-contactos {
+  background-color: rgb(160, 5, 5);
+  color: white;
+  padding: 0.625em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-informacion {
   background-color: rgb(160, 5, 5);
   color: white;
   padding: 0.625em;
@@ -22,6 +54,26 @@ body {
 .barra-de-navegacion {
   display: flex;
   gap: 1.25em;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.volver-arriba:hover {
+  color: rgb(160, 5, 5);
+}
+
+.footer {
+  background-color: rgb(0, 0, 0);
+  color: white;
+  padding: 3.125em;
+}
+.footer__img {
+  width: 40px;
+  height: 40px;
+  padding: 1.25em;
 }
 
 .fondo {
@@ -40,28 +92,11 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: 2em;
-  background-color: rgba(160, 5, 5, 0.644);
+  font-size: 2rem;
+  background-color: rgb(160, 5, 5);
   color: white;
   padding: 1.25em;
-  border-radius: 0.625em;
-}
-
-.footer {
-  background-color: rgb(0, 0, 0);
-  color: white;
-  padding: 3.125em;
-}
-
-.footer__img {
-  width: 2.5em;
-  height: 2.5em;
-  padding: 1.25em;
-}
-
-a {
-  text-decoration: none;
-  color: white;
+  border-radius: 10px;
 }
 
 .productos-index {
@@ -78,11 +113,10 @@ a {
 
 .tarjeta {
   padding: 0.625em;
-  width: 12.5em;
-  height: 18.75em;
-  border: 0.125em solid black;
+  width: 200px;
+  height: 300px;
+  border: 2px solid black;
 }
-
 .tarjeta-contenedor {
   display: flex;
   justify-content: space-around;
@@ -90,60 +124,49 @@ a {
 }
 
 .tarjeta__img {
-  width: 10em;
-  height: 10em;
+  width: 160px;
+  height: 160px;
   background-color: white;
 }
 
 .btn {
-  background-color: red;
+  background-color: rgb(160, 5, 5);
   color: white;
   padding: 0.625em;
   justify-content: baseline;
   display: flex;
   width: 35%;
 }
-
 .btn:hover {
   background-color: white;
-  color: red;
-  border: 0.063em black solid;
-}
-
-/* PAGINA-PRODUCTOS */
-.header-productos {
-  background-color: rgb(160, 5, 5);
-  color: white;
-  padding: 0.625em;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  color: rgb(160, 5, 5);
+  border: 1px black solid;
 }
 
 .seccion-bebidas {
   width: 100%;
   display: grid;
-  grid-template-rows: 18.75em;
-  grid-template-columns: 16.875em 16.875em 16.875em 16.875em 16.875em;
+  grid-template-rows: 300px;
+  grid-template-columns: 270px 270px 270px 270px 270px;
   padding-top: 1.875em;
   padding-bottom: 1.875em;
 }
 
 .productos-bebidas {
-  font-size: 3em;
+  font-size: 3rem;
   background-color: rgba(128, 128, 128, 0.351);
   justify-content: center;
   display: flex;
 }
 
 .tarjeta-bebidas {
-  width: 12.5em;
-  height: 18.75em;
-  border: 0.125em solid black;
+  width: 200px;
+  height: 300px;
+  border: 2px solid black;
 }
 
 .productos-sonido {
-  font-size: 3em;
+  font-size: 3rem;
   background-color: rgba(128, 128, 128, 0.351);
   justify-content: center;
   display: flex;
@@ -152,21 +175,21 @@ a {
 .seccion-sonido {
   width: 100%;
   display: grid;
-  grid-template-rows: 18.75em;
-  grid-template-columns: 16.875em 16.875em 16.875em 16.875em 16.875em;
+  grid-template-rows: 300px;
+  grid-template-columns: 270px 270px 270px 270px 270px;
   padding-top: 1.875em;
   padding-bottom: 3.125em;
 }
 
 .tarjeta-sonido {
   padding: 0.625em;
-  width: 12.5em;
-  height: 18.75em;
-  border: 0.125em solid black;
+  width: 200px;
+  height: 300px;
+  border: 2px solid black;
 }
 
 .productos-tecnologia {
-  font-size: 3em;
+  font-size: 3rem;
   background-color: rgba(128, 128, 128, 0.351);
   justify-content: center;
   display: flex;
@@ -175,65 +198,44 @@ a {
 .seccion-tecnologia {
   width: 100%;
   display: grid;
-  grid-template-rows: 18.75em;
-  grid-template-columns: 16.875em 16.875em 16.875em 16.875em 16.875em;
+  grid-template-rows: 300px;
+  grid-template-columns: 270px 270px 270px 270px 270px;
   padding-top: 1.875em;
   padding-bottom: 3.125em;
 }
 
 .tarjeta-tecnologia {
   padding: 0.625em;
-  width: 12.5em;
-  height: 18.75em;
-  border: 0.125em solid black;
+  width: 200px;
+  height: 300px;
+  border: 2px solid black;
   padding-bottom: 1.875em;
 }
 
-/* PAGINA-FOTOS */
-.header-fotos {
-  background-color: rgb(160, 5, 5);
-  color: white;
-  padding: 1em;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
 .fotos__texto {
-  font-size: 3em;
-  background-color: rgba(128, 128, 128, 0.521);
+  font-size: 3rem;
+  background-color: rgba(128, 128, 128, 0.351);
   display: flex;
   justify-content: center;
 }
-
-.fotos__img {
-  height: 37.5em;
-  width: 50em;
+.fotos__texto__img {
+  height: 600px;
+  width: 800px;
 }
 
 .fotos {
   text-align: center;
 }
 
-/* PAGINA-CONTACTOS */
-.header-contactos {
-  background-color: rgb(160, 5, 5);
-  color: white;
-  padding: 0.625em;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
 .contactos-img {
-  width: 5em;
-  height: 5em;
+  width: 80px;
+  height: 80px;
   padding: 1.25em;
 }
 
 .texto-contactos {
-  font-size: 2em;
-  background-color: rgba(128, 128, 128, 0.521);
+  font-size: 2rem;
+  background-color: rgba(128, 128, 128, 0.351);
   display: flex;
   justify-content: center;
 }
@@ -242,23 +244,12 @@ a {
   padding: 1.25em;
 }
 
-/* PAGINA-INFORMACION */
-.header-informacion {
-  background-color: rgb(160, 5, 5);
-  color: white;
-  padding: 0.625em;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
 .informacion {
   display: grid;
-  grid-template-rows: 18.75em;
-  grid-template-columns: 46.5em 37.5em;
-  height: 34.375em;
+  grid-template-rows: 300px;
+  grid-template-columns: 744px 600px;
+  height: 600px;
 }
-
 .informacion__titulo {
   padding: 0.625em;
   display: flex;
@@ -269,24 +260,24 @@ a {
 
 .informacion__img {
   padding: 0.625em;
-  height: 18.75em;
-  width: 25em;
+  height: 300px;
+  width: 400px;
 }
 
 .informacion-tarjeta__informacion {
-  border: black 0.125em solid;
+  border: black 2px solid;
   padding: 0.625em;
-  height: 30em;
-  width: 32em;
+  height: 480px;
+  width: 512px;
   display: flex;
   flex-direction: column;
 }
 
 .informacion__tarjeta {
-  border: black 0.125em solid;
+  border: black 2px solid;
   padding: 0.625em;
-  height: 55em;
-  width: 32em;
+  height: 880px;
+  width: 512px;
   display: flex;
   flex-direction: column;
 }
@@ -296,7 +287,7 @@ a {
   justify-content: center;
   padding: 0.75em;
   font-family: "Playfair Display", serif;
-  background-color: rgba(128, 128, 128, 0.452);
+  background-color: rgba(128, 128, 128, 0.351);
 }
 
 .informacion__texto {
@@ -312,11 +303,11 @@ a {
 
 @media (max-width: 400px) {
   .fotos__img {
-    height: 18.75em;
-    width: 25em;
+    height: 300px;
+    width: 400px;
   }
   .header-texto {
-    font-size: 1.25em;
+    font-size: 1.25rem;
   }
   .header-fotos {
     flex-direction: column;
@@ -338,63 +329,63 @@ a {
   }
   .barra-de-navegacion {
     display: block;
-    font-size: 0.625em;
+    font-size: 0.625rem;
   }
   .header-informacion {
     flex-direction: column;
-  }
-  .informacion__tarjeta {
-    width: 23.438em;
-    height: 55em;
   }
   .informacion {
     display: block;
     padding-bottom: 30em;
   }
+  .informacion__tarjeta {
+    width: 375px;
+    height: 880px;
+  }
   .header-contactos {
     flex-direction: column;
     justify-content: center;
-    font-size: 0.8em;
+    font-size: 0.8rem;
   }
   .texto-contactos {
-    font-size: 1.5em;
+    font-size: 1.5rem;
   }
   .header-index {
     flex-direction: column;
     justify-content: center;
-    font-size: 1em;
+    font-size: 1rem;
   }
   .texto-fondo {
-    font-size: 1em;
+    font-size: 1rem;
   }
   .productos-index {
     display: flex;
     justify-content: center;
-    font-size: 1em;
+    font-size: 1rem;
   }
   .tarjeta-contenedor {
     display: block;
     padding-left: 5.5em;
   }
   .informacion-tarjeta__informacion {
-    width: 23.5em;
+    width: 376px;
   }
   .informacion__img {
-    width: 22.3em;
+    width: 356px;
   }
   .header-productos {
     flex-direction: column;
     justify-content: center;
-    font-size: 0.65em;
+    font-size: 0.65rem;
   }
   .productos-bebidas {
-    font-size: 2em;
+    font-size: 2rem;
   }
   .productos-sonido {
-    font-size: 2em;
+    font-size: 2rem;
   }
   .productos-tecnologia {
-    font-size: 2em;
+    font-size: 2rem;
   }
   .seccion-bebidas {
     display: block;
