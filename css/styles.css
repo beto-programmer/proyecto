@@ -76,18 +76,11 @@ a {
   padding: 1.25em;
 }
 
-.fondo {
-  background-color: grey;
-  height: 100vh;
-  background-position: center;
-  background-size: cover;
-  background-image: url(/img/grocery-g62c28d450_1280.jpg);
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.fondo__img {
+  width: 100%;
 }
 
-.texto-fondo {
+.fondo__texto {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -96,7 +89,6 @@ a {
   background-color: rgb(160, 5, 5);
   color: white;
   padding: 1.25em;
-  border-radius: 10px;
 }
 
 .productos-index {
@@ -105,6 +97,50 @@ a {
   padding: 0.625em;
   color: white;
   background-color: rgb(160, 5, 5);
+  font-size: 2rem;
+}
+
+.link-productos {
+  display: flex;
+  justify-content: center;
+  padding: 0.625em;
+  color: white;
+  background-color: rgb(160, 5, 5);
+  font-size: 2rem;
+}
+.link-productos:hover {
+  background-color: white;
+  color: rgb(160, 5, 5);
+  border: 1px black solid;
+}
+
+.index-fotos {
+  display: flex;
+  justify-content: center;
+  padding: 0.625em;
+  color: white;
+  background-color: rgb(160, 5, 5);
+  font-size: 2rem;
+}
+.index-fotos__seccion {
+  padding-top: 1em;
+}
+
+.index-fotos__img {
+  display: flex;
+  justify-content: center;
+}
+
+.index-contactos {
+  display: flex;
+  justify-content: center;
+  padding: 0.625em;
+  color: white;
+  background-color: rgb(160, 5, 5);
+  font-size: 2rem;
+}
+.index-contactos__seccion {
+  padding-top: 1em;
 }
 
 .tarjeta__titulo {
@@ -218,7 +254,8 @@ a {
   display: flex;
   justify-content: center;
 }
-.fotos__texto__img {
+
+.fotos__img {
   height: 600px;
   width: 800px;
 }

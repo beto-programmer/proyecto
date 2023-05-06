@@ -1,15 +1,7 @@
-.fondo {
-    background-color: grey;
-    height: 100vh;
-    background-position: center;
-    background-size: cover;
-    background-image: url(/img/grocery-g62c28d450_1280.jpg);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  .texto-fondo {
+.fondo__img{
+    width: 100%;
+}
+.fondo__texto {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -18,14 +10,54 @@
     background-color: $color-principal;
     color: white;
     padding: 1.25em;
-    border-radius: 10px;
   }
   
-  .productos-index {
+.productos-index{
     display: flex;
     justify-content: center;
     padding: 0.625em;
     color: white;
     background-color: $color-principal;
+    font-size: 2rem;
   }
-  
+.link-productos{
+    display: flex;
+    justify-content: center;
+    padding: 0.625em;
+    color: white;
+    background-color: $color-principal;
+    font-size: 2rem;
+
+    &:hover{
+      background-color: white;
+      color: $color-principal;
+      border: 1px $color-bordes solid;
+    }
+  }
+ .index-fotos{
+    display: flex;
+    justify-content: center;
+    padding: 0.625em;
+    color: white;
+    background-color: $color-principal;
+    font-size: 2rem;
+    &__seccion{
+      padding-top: 1em;
+    }
+  }
+ .index-fotos__img{
+  display: flex;
+  justify-content: center;
+ }
+
+ .index-contactos{
+  display: flex;
+  justify-content: center;
+  padding: 0.625em;
+  color: white;
+  background-color: $color-principal;
+  font-size: 2rem;
+  &__seccion{
+    padding-top: 1em;
+  }
+ }
