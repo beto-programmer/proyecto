@@ -3,18 +3,27 @@
     height: 80px;
     padding: 1.25em;
   }
-  
-  .texto-contactos {
-    font-size: 2rem;
-    background-color: $color-secciones;
+
+  .contactos-texto {
     display: flex;
     justify-content: center;
+    font-size: 2rem;
+    background-color: $color-secciones
   }
   
   .redes-contactos__titulo {
     padding: 1.25em;
   }
-  form {
+  .contactos-respuesta{
+    padding-top: 10em;
+  }
+  .contactos-seccion{
+    padding-bottom: 10em;
+  }
+  .redes-contactos__titulo {
+    padding: 1.25em;
+  }
+.formulario {
     display: flex;
     flex-direction: column;
     max-width: 400px;
@@ -23,34 +32,30 @@
     background-color: #f2f2f2;
     border-radius: 5px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-  }
-  
-  label {
+ &__email {
     margin-top: 10px;
     font-weight: bold;
   }
-  
+}
   input[type="text"],
-  input[type="email"],
-  input[type="password"] {
+  input[type="email"]{
     padding: 10px;
     margin: 5px 0;
     border-radius: 3px;
     border: none;
-    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
   }
   
-  input[type="submit"] {
+  .formulario__btn {
     padding: 10px;
     margin-top: 10px;
-    background-color: #0095ff;
+    background-color: $color-principal;
     color: white;
     border: none;
     border-radius: 3px;
     cursor: pointer;
+
+    &:hover {
+    background-color: white;
+    color: $color-principal;
   }
-  
-  input[type="submit"]:hover {
-    background-color: #0080e6;
-  }
- 
+}
