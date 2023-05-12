@@ -142,6 +142,12 @@ a {
 .index-contactos__seccion {
   padding-top: 1em;
 }
+.index-contactos__texto {
+  display: flex;
+  justify-content: center;
+  background-color: rgba(128, 128, 128, 0.351);
+  padding: 1em;
+}
 
 .tarjeta__titulo {
   padding-bottom: 1.875em;

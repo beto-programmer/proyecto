@@ -60,4 +60,10 @@
   &__seccion{
     padding-top: 1em;
   }
+  &__texto{
+    display: flex;
+    justify-content: center;
+    background-color: $color-secciones;
+    padding: 1em;
+  }
  }
