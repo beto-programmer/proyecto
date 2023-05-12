@@ -55,6 +55,9 @@ body {
   display: flex;
   gap: 1.25em;
 }
+.barra-de-navegacion__items {
+  list-style: none;
+}
 
 a {
   text-decoration: none;
@@ -74,6 +77,10 @@ a {
   width: 40px;
   height: 40px;
   padding: 1.25em;
+}
+
+.footer__iconos {
+  list-style: none;
 }
 
 .fondo__img {
