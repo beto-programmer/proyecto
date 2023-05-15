@@ -462,11 +462,17 @@ input[type=email] {
     font-size: 1rem;
   }
   .header-productos {
-    font-size: 0.55rem;
-    display: block;
+    display: flex;
+    flex-direction: column;
+  }
+  .header-texto__productos {
+    align-items: center;
+    font-size: 1rem;
+    padding-bottom: 0.2em;
   }
   .barra-de-navegacion__productos {
-    font-size: 0.67rem;
+    align-items: center;
+    font-size: 0.68rem;
     padding: 0;
   }
   .productos-bebidas {
@@ -494,26 +500,35 @@ input[type=email] {
     align-items: center;
   }
   .header-fotos {
-    display: block;
-    font-size: 0.6rem;
+    display: flex;
+    flex-direction: column;
+  }
+  .header-texto__fotos {
+    align-items: center;
+    font-size: 1.2rem;
+    padding-bottom: 0.2em;
   }
   .barra-de-navegacion__fotos {
     font-size: 0.67rem;
     padding: 0;
+    align-items: center;
   }
   .fotos__texto {
     font-size: 2rem;
   }
   .header-contactos {
-    display: block;
+    display: flex;
+    flex-direction: column;
   }
   .header-texto__contactos {
     font-size: 1.4rem;
     padding-bottom: 0.25em;
+    align-items: center;
   }
   .barra-de-navegacion__contactos {
     font-size: 0.67rem;
     padding: 0;
+    align-items: center;
   }
   .contactos-texto {
     font-size: 1rem;
@@ -528,12 +543,18 @@ input[type=email] {
     padding-top: 3em;
   }
   .header-informacion {
-    font-size: 0.65rem;
-    display: block;
+    display: flex;
+    flex-direction: column;
+  }
+  .header-texto__informacion {
+    align-items: center;
+    font-size: 1.3rem;
+    padding-bottom: 0.4em;
   }
   .barra-de-navegacion__informacion {
     font-size: 0.67rem;
     padding: 0;
+    align-items: center;
   }
   .informacion {
     display: flex;
@@ -563,10 +584,12 @@ input[type=email] {
   .header-texto__productos {
     font-size: 1.5rem;
     padding-bottom: 0.3em;
+    align-items: center;
   }
   .header-texto__fotos {
     font-size: 1.85rem;
     padding-bottom: 0.3em;
+    align-items: center;
   }
   .barra-de-navegacion {
     font-size: 0.65rem;
@@ -605,11 +628,13 @@ input[type=email] {
     font-size: 1.5rem;
   }
   .header-productos {
-    display: block;
+    display: flex;
+    flex-direction: column;
   }
   .barra-de-navegacion__productos {
     font-size: 1rem;
     padding: 0;
+    align-items: center;
   }
   .productos-bebidas {
     font-size: 2rem;
@@ -636,22 +661,29 @@ input[type=email] {
     align-items: center;
   }
   .header-fotos {
-    display: block;
+    display: flex;
+    flex-direction: column;
   }
   .barra-de-navegacion__fotos {
     font-size: 1rem;
     padding: 0;
+    align-items: center;
   }
   .fotos__texto {
     font-size: 2rem;
   }
   .header-contactos {
+    display: flex;
+    flex-direction: column;
+  }
+  .header-texto__contactos {
     font-size: 1rem;
-    display: block;
+    align-items: center;
   }
   .header-texto__contactos {
     font-size: 2rem;
     padding-bottom: 0.25em;
+    align-items: center;
   }
   .barra-de-navegacion__contactos {
     font-size: 1rem;
@@ -670,13 +702,16 @@ input[type=email] {
     padding-top: 3em;
   }
   .header-informacion {
-    display: block;
+    display: flex;
+    flex-direction: column;
   }
   .barra-de-navegacion__informacion {
     font-size: 1rem;
     padding: 0;
+    align-items: center;
   }
   .header-texto__informacion {
+    align-items: center;
     font-size: 2rem;
   }
   .informacion {
