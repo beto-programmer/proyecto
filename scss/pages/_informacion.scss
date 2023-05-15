@@ -1,7 +1,7 @@
 .informacion {
-    display: grid;
-    grid-template-rows: 300px;
-    grid-template-columns: 744px 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     height: 600px;
 
   &__titulo {
@@ -53,5 +53,5 @@
   }
   
   .seccion-informacion {
-    padding-bottom: 24em;
+    padding-bottom: 50em;
   }

@@ -1,101 +1,479 @@
-@media (max-width: 400px) {
-    .fotos__img {
-      height: 300px;
-      width: 400px;
-    }
-    .header-texto {
-      font-size: 1.25rem;
-    }
-    .header-fotos {
+@media (min-width: 320px) and (max-width: 480px) {
+    .header-index{
+      font-size: 0.7rem;
+      display: flex;
       flex-direction: column;
     }
-    .barra-de-navegacion__principal {
-      padding: 0.75em;
-    }
-    .barra-de-navegacion__productos {
-      padding: 0.75em;
-    }
-    .barra-de-navegacion__redes {
-      padding: 0.75em;
-    }
-    .barra-de-navegacion__contactos {
-      padding: 0.75em;
-    }
-    .barra-de-navegacion__informacion {
-      padding: 0.75em;
-    }
-    .barra-de-navegacion {
-      display: block;
-      font-size: 0.625rem;
-    }
-    .header-informacion {
-      flex-direction: column;
-    }
-  
-    .informacion {
-      display: block;
-      padding-bottom: 30em;
-
-    &__tarjeta {
-      width: 375px;
-      height: 880px;
-    }
-  }
-    .header-contactos{
-      flex-direction: column;
-      justify-content: center;
+    .barra-de-navegacion{
+      padding: 0;
       font-size: 0.8rem;
     }
-    .texto-contactos{
-      font-size: 1.5rem;
-    }
-    .header-index{
-      flex-direction: column;
-      justify-content: center;
-      font-size: 1rem;
-    }
-    .texto-fondo{
-      font-size: 1rem;
+    .header-texto{
+      padding-bottom: 0.35em;
     }
     .productos-index{
+      display: block;
+      font-size: 1.1rem;
+      padding-left: 0.75em;
+    }
+    .tarjeta{
+      width: 190px;
+    &-contenedor{
       display: flex;
-      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+    .link-productos{
       font-size: 1rem;
     }
-    .tarjeta-contenedor{
+    .index-fotos{
+      font-size: 1rem;
+    }
+    .index-fotos__img{
       display: block;
-      padding-left: 5.5em;
     }
-    .informacion-tarjeta__informacion{
-      width: 376px;
+    .fotos__img{
+      width: 300px;
+      height: 250px;
+      padding-left: .6em;
     }
-    .informacion__img{
-      width: 356px;
+    .index-contactos{
+      font-size: 1.5rem;
+      display: block;
+      padding-left: 2.5em;
+    &__texto{
+      font-size: 1rem;
     }
+    }
+
+
+
     .header-productos{
-        flex-direction: column;
-        justify-content: center;
-        font-size: 0.65rem;
+      font-size: 0.55rem;
+      display: block;
+    }
+    .barra-de-navegacion__productos{
+      font-size: 0.67rem;
+      padding: 0;
     }
     .productos-bebidas{
       font-size: 2rem;
     }
+    .seccion-bebidas{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
     .productos-sonido{
       font-size: 2rem;
+    }
+    .seccion-sonido{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
     }
     .productos-tecnologia{
       font-size: 2rem;
     }
-    .seccion-bebidas{
+    .seccion-tecnologia{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+
+
+    .header-fotos{
       display: block;
-      padding-left: 6em;
+      font-size: 0.6rem;
+    }
+    .barra-de-navegacion__fotos{
+      font-size: 0.67rem;
+      padding: 0;
+    }
+    .fotos__texto{
+      font-size: 2rem;
+    }
+
+
+    .header-contactos{
+      display: block;
+    }
+    .header-texto__contactos{
+      font-size: 1.4rem;
+      padding-bottom: 0.25em;
+    }
+    .barra-de-navegacion__contactos{
+      font-size: 0.67rem;
+      padding: 0;
+    }
+    .contactos-texto{
+      font-size: 1rem;
+      padding: 1em;
+    }
+    .contactos-seccion{
+      padding: 0;
+      padding-bottom: 3em;
+    }
+    .contactos-respuesta{
+      padding: 0;
+      padding-top: 3em;
+    }
+
+
+
+    .header-informacion{
+      font-size: 0.65rem;
+      display: block;
+    }
+    .barra-de-navegacion__informacion{
+      font-size: 0.67rem;
+      padding: 0;
+    }
+    .informacion{
+      display: flex;
+      flex-direction: column;
+      &__titulo{
+        font-size: 1.2rem;
+      }
+    &-tarjeta__informacion{
+      width: 295px;
+    }
+  }
+    .informacion__img{
+      width: 256px;
+      height: 240px;
+    }
+    .informacion__tarjeta{
+      width: 296px;
+    }
+  }
+  @media (min-width:480px) and (max-width:600px){
+    .header-index{
+      display: flex;
+    }
+    .header-texto{
+      font-size: 1rem;
+      &__productos{
+        font-size: 1.5rem;
+        padding-bottom: 0.3em;
+      }
+      &__fotos{
+        font-size: 1.85rem;
+        padding-bottom: 0.3em;
+      }
+    }
+    .barra-de-navegacion{
+      font-size: 0.65rem;
+    }
+    .productos-index{
+      display: flex;
+      font-size: 1.3rem;
+    }
+    .tarjeta{
+      width: 200px;
+    &-contenedor{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+    .link-productos{
+      font-size: 1.5rem;
+    }
+    .index-fotos{
+      font-size: 1.5rem;
+    }
+    .index-fotos__img{
+      display: flex;
+    }
+    .fotos__img{
+      width: 450px;
+      height: 370px;
+      padding-left: .6em;
+    }
+    .index-contactos{
+      font-size: 1.5rem;
+      display: flex;
+    &__texto{
+      font-size: 1.5rem;
+    }
+    }
+
+
+
+    .header-productos{
+      display: block;
+    }
+    .barra-de-navegacion__productos{
+      font-size: 1rem;
+      padding: 0;
+    }
+    .productos-bebidas{
+      font-size: 2rem;
+    }
+    .seccion-bebidas{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .productos-sonido{
+      font-size: 2rem;
     }
     .seccion-sonido{
-      display: block;
-      padding-left: 5.5em;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .productos-tecnologia{
+      font-size: 2rem;
     }
     .seccion-tecnologia{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+
+
+    .header-fotos{
       display: block;
-      padding-left: 5.5em;
+    }
+    .barra-de-navegacion__fotos{
+      font-size: 1rem;
+      padding: 0;
+    }
+    .fotos__texto{
+      font-size: 2rem;
+    }
+
+
+    .header-contactos{
+      font-size: 1rem;
+      display: block;
+    }
+    .header-texto__contactos{
+      font-size: 2rem;
+      padding-bottom: 0.25em;
+    }
+    .barra-de-navegacion__contactos{
+      font-size: 1rem;
+      padding: 0;
+    }
+    .contactos-texto{
+      font-size: 1rem;
+      padding: 1em;
+    }
+    .contactos-seccion{
+      padding: 0;
+      padding-bottom: 3em;
+    }
+    .contactos-respuesta{
+      padding: 0;
+      padding-top: 3em;
+    }
+
+
+
+    .header-informacion{
+      display: block;
+    }
+    .barra-de-navegacion__informacion{
+      font-size: 1rem;
+      padding: 0;
+    }
+    .header-texto__informacion{
+      font-size: 2rem
+    }
+    .informacion{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      &__titulo{
+        font-size: 1.2rem;
+      }
+    &-tarjeta__informacion{
+      width: 295px;
+    }
+  }
+    .informacion__img{
+      width: 256px;
+      height: 240px;
+    }
+    .informacion__tarjeta{
+      width: 296px;
+    }
+  }
+  @media (min-width:600px) and (max-width:768px){
+    .header-index{
+      display: flex;
+    }
+    .header-texto{
+      font-size: 1.3rem;
+      &__productos{
+        font-size: 1.5rem;
+        padding-bottom: 0.3em;
+      }
+      &__fotos{
+        font-size: 1.85rem;
+        padding-bottom: 0.3em;
+      }
+    }
+    .barra-de-navegacion{
+      font-size: 0.8rem;
+    }
+    .productos-index{
+      display: flex;
+      font-size: 1.3rem;
+    }
+    .tarjeta{
+      width: 200px;
+    &-contenedor{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+    .link-productos{
+      font-size: 1.5rem;
+    }
+    .index-fotos{
+      font-size: 1.5rem;
+    }
+    .index-fotos__img{
+      display: flex;
+    }
+    .fotos__img{
+      width: 450px;
+      height: 370px;
+      padding-left: .6em;
+    }
+    .index-contactos{
+      font-size: 1.5rem;
+      display: flex;
+    &__texto{
+      font-size: 1.5rem;
+    }
+    }
+
+
+
+    .header-productos{
+      display: flex;
+      flex-direction: column;
+    }
+    .header-texto__productos{
+      font-size: 2rem;
+      align-items: center;
+    }
+    .barra-de-navegacion__productos{
+      font-size: 1rem;
+      padding: 0;
+      align-items: center;
+    }
+    .productos-bebidas{
+      font-size: 3rem;
+    }
+    .seccion-bebidas{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .productos-sonido{
+      font-size: 3rem;
+    }
+    .seccion-sonido{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .productos-tecnologia{
+      font-size: 3rem;
+    }
+    .seccion-tecnologia{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+
+
+    .header-fotos{
+      display: flex;
+      flex-direction: column;
+    }
+    .header-texto__fotos{
+      font-size: 2rem;
+      align-items: center;
+    }
+    .barra-de-navegacion__fotos{
+      font-size: 1rem;
+      padding: 0;
+      align-items: center;
+    }
+    .fotos__texto{
+      font-size: 2rem;
+    }
+
+
+    .header-contactos{
+      display: flex;
+      flex-direction: column;
+    }
+    .header-texto__contactos{
+      font-size: 2rem;
+      align-items: center;
+    }
+    .barra-de-navegacion__contactos{
+      font-size: 1rem;
+      padding: 0;
+      align-items: center;
+    }
+    .contactos-texto{
+      font-size: 1.5rem;
+      padding: 1em;
+    }
+    .contactos-seccion{
+      padding: 0;
+      padding-bottom: 3em;
+    }
+    .contactos-respuesta{
+      padding: 0;
+      padding-top: 3em;
+    }
+
+
+
+    .header-informacion{
+      display: flex;
+      flex-direction: column;
+    }
+    .barra-de-navegacion__informacion{
+      font-size: 1rem;
+      padding: 0;
+      align-items: center;
+    }
+    .header-texto__informacion{
+      align-items: center;
+      font-size: 2rem
+    }
+    .informacion{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      &__titulo{
+        font-size: 1.2rem;
+      }
+    &-tarjeta__informacion{
+      width: 295px;
+    }
+  }
+    .informacion__img{
+      width: 256px;
+      height: 240px;
+    }
+    .informacion__tarjeta{
+      width: 296px;
     }
   }
